@@ -18,7 +18,7 @@ echo "chk system.img"
 e2fsck -f $ImagesRoot/system.img
 
 echo "Resizing system.img"
-resize2fs $ImagesRoot/system.img 1280M
+resize2fs $ImagesRoot/system.img 1600M
 
 echo "chk system_ext.img"
 e2fsck -f $ImagesRoot/system_ext.img
